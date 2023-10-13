@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function() {
       popoutOverlay.style.display = "none";
    });
   conf.addEventListener("click", function() {
-      window.open("https://www.duolingo.com/classroom/gvaktm")
+      window.location.href = "https://www.duolingo.com/classroom/gvaktm"
      var tiempoRestante = 60; // Tiempo restante en segundos
 
 function actualizarTitulo() {
